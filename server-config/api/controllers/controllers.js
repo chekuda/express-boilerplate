@@ -1,6 +1,7 @@
 const commonPaths = require('../../commons-paths/common-paths')
 
 exports.getgenericfile = (req, res) => {
+  res.send('Jose')
   res.sendFile(`${commonPaths.serviceFiles}/generictestfile.json`)
 }
 
